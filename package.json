@@ -1,0 +1,22 @@
+{
+  "name": "fuck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc --watch",
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react-dom": "^16.8.4",
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.15",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
