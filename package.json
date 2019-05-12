@@ -11,12 +11,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/next": "^8.0.5",
     "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.3",
     "lite-server": "^2.4.0"
   },
   "dependencies": {
     "@types/react": "^16.8.15",
+    "next": "^8.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
   }
 }

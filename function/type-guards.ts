@@ -52,3 +52,25 @@ function redirectB(usr: Admin | User) {
     console.log(usr.email)
   }
 }
+
+// ======== TYPE GUARD v3
+let myUnknown: unknown = "hello, unknown"
+interface HasEmail {
+  name: string
+  email: string
+}
+function isHasEmail(x: any): x is HasEmail {
+  return typeof x.name === 'string' && typeof x.email === 'string'
+}
+if(isHasEmail(myUnknown)) {
+  console.log(myUnknown.name, myUnknown.email)  
+}
+
+
+// ======== TYPE GUARD v4
+function isDefined<T>(arg: T | undefined): arg is T {
+  return typeof arg  !== "undefined"
+}
+const list = ['a', 'b', 'c', undefined, 'e']
+const filtered = list.filter(isDefined)
+

@@ -58,3 +58,9 @@ Other common event interfaces
 * TransitionEvent
 * ClipboardEvent
 * SyntheticEvent
+
+# Type examples collected - do investigate
+```js
+  React.AnchorHTMLAttributes<HTMLAnchorElement>
+  React.ReactElement<typeof SomeComponent>
+```

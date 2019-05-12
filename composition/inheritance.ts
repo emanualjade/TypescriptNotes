@@ -11,3 +11,4 @@
   // BAD - class cannot implement a union type
   // Two interfaces with the same name will have all types merged together
   // BAD - You cannot have duplicate "type" names
+

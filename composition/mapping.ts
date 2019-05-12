@@ -9,7 +9,7 @@ type ReadOnlyPet = {
 
 // MAP TO REMOVE optional types using -?
 interface IPeta {
-  name: string;
+  name?: string;
   age: number;
 }
 type ReadOnlyPeta = {
