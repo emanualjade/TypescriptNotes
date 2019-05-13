@@ -6,7 +6,7 @@ interface IWithFinancialDataProps {
   children(props: IFinancialProps): JSX.Element
 }
 
-const WithFinancialData: React.FunctionComponent<IWithFinancialDataProps> = ({children}) => {
+const WithFinancialData: React.FC<IWithFinancialDataProps> = ({children}) => {
   
   const props: IFinancialProps = {
     ticker: "GUN",
