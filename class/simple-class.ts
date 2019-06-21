@@ -6,9 +6,9 @@ interface NamedPerson {
 
 class Person implements NamedPerson {
   constructor(public firstName: string) {}
-  greet(name: string){
-    console.log(`Hello ${name}`)
+  greet(name: string) {
+    console.log(`Hello ${name}`);
   }
 }
 
-const person = new Person("Johnny")
+const person: Person = new Person("Johnny");
