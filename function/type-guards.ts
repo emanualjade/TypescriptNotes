@@ -1,3 +1,14 @@
+// Restorative type guards
+class DoDad {}
+if(typeof "sdf" === "string"){}
+if(typeof 23 === "number"){}
+if(typeof true === "boolean"){}
+if(typeof Symbol('some symbol') === 'symbol') {}
+if([] instanceof Array) {}
+if({} instanceof Object) {}
+if(new Date() instanceof Date) {}
+if(new DoDad() instanceof DoDad) {}
+
 // ====== CUSTOM TYPE GUARD
 class Foo {
   foo: number = 0;
