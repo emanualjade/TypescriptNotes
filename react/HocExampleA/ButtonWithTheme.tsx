@@ -11,7 +11,7 @@ class MyButton extends Component<Props> {
     return (
       <button style={{ 
         color: "#fff",
-        size: "16px",
+        fontSize: "16px",
         background: this.props.primaryColor,
       }}>
         {this.props.children}
