@@ -1,3 +1,4 @@
+// https://www.udemy.com/course/react-with-typescript/learn/lecture/14461188#overview
 // ======= DECLARE
 // declare is used to tell TypeScript that the variable has been 
 // created elsewhere. If you use declare, nothing is added to the 

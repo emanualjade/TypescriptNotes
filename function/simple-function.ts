@@ -36,3 +36,9 @@ const ContactMessengerB: IContactMessengerB = function(contact: string, email: s
   console.log(contact, email)
   return true
 }
+
+
+type CustomFunctionType = (value: string) => string
+const aSimpleFunction = (value: string) => value
+let myFunction: CustomFunctionType
+myFunction = aSimpleFunction

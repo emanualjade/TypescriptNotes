@@ -63,4 +63,6 @@ Other common event interfaces
 ```js
   React.AnchorHTMLAttributes<HTMLAnchorElement>
   React.ReactElement<typeof SomeComponent>
+  React.ElementType<any>
+  JSX.IntrinsicElements
 ```
